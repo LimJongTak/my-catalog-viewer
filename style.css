@@ -92,7 +92,7 @@ body {
 }
 
 /* 2. 460px 이하일 때의 미디어 쿼리 */
-@media (max-width: 460px) {
+@media (max-width: 1200px) {
 
     /* (모바일) 헤더 정렬 변경 */
     #lang-select {
