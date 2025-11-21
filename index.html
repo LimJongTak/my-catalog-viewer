@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정남진장흥표고(주)</title>
+    
+    <link rel="icon" href="jjpyogo.ico">
+    
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div id="lang-select">
+        <img src="logo.png" id="header-logo" alt="Logo">
+
+        <button id="lang-toggle">
+            Language
+        </button>
+        
+        <div id="lang-options">
+            <button data-lang="ko" class="active">한국어</button>
+            <button data-lang="en">English</button>
+            <button data-lang="zh">中文</button>
+            <button data-lang="vi">Tiếng Việt</button>
+        </div>
+    </div>
+
+    <div id="loader" class="visible">
+        Getting catalog...
+    </div>
+
+    <div id="catalog-container"></div>
+
+    <script src="app.js" defer></script>
+
+</body>
+</html>
