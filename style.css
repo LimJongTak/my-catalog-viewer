@@ -36,8 +36,8 @@ body {
     transition: all 0.2s ease-in-out;
 }
 #lang-select button.active {
-    background-color: #007aff; color: white;
-    box-shadow: 0 4px 10px rgba(0, 122, 255, 0.3);
+    background-color: #d6a317; color: white;
+    box-shadow: 0 4px 10px rgba(235, 187, 30, 0.3);
 }
 #lang-select button:not(.active):hover {
     background-color: rgba(0, 0, 0, 0.05);
