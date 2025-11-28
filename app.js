@@ -1,4 +1,4 @@
-// app.ts (PC 마우스 드래그 스와이프 추가 버전)
+// app.ts (PC 마우스 드래그 스와이프 추가 버전) 
 document.addEventListener('DOMContentLoaded', () => {
     let currentLang = 'ko';
     let currentIndex = 0;
